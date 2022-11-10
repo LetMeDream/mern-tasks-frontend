@@ -1,0 +1,7 @@
+name: Set env variable
+
+on:
+  workflow_dispatch
+
+env:
+  VITE_REACT_APP_SERVER_URL: https://mern-tasks-app-api.onrender.com
