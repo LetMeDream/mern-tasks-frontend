@@ -8,5 +8,7 @@ jobs:
       runs-on: ubuntu-latest
       steps:
       - name: Build
+        run: 
+            npm run-script build
         env:
           VITE_REACT_APP_SERVER_URL: https://mern-tasks-app-api.onrender.com
